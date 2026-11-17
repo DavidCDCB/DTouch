@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dt_primary">#1565C0</color>
+    <color name="dt_primary_dark">#0D47A1</color>
+    <color name="dt_primary_container">#D6E4FF</color>
+    <color name="dt_on_primary_container">#001B3F</color>
+    <color name="dt_background">#F7F9FC</color>
+    <color name="dt_surface">#FFFFFF</color>
+    <color name="dt_on_surface">#1A1C1E</color>
+    <color name="dt_on_surface_variant">#44474F</color>
+    <color name="dt_divider">#E1E3E8</color>
+    <color name="dt_success">#1B7F3A</color>
+    <color name="dt_error">#B3261E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ic_launcher_background">#0D47A1</color>
+</resources>

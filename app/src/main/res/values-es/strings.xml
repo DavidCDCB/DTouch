@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DTouch</string>
+    <string name="service_label">DTouch</string>
+    <string name="device_admin_label">DTouch: bloqueo de pantalla</string>
+    <string name="device_admin_description">Permite a DTouch apagar la pantalla en Android 8 o anterior.</string>
+
+    <string name="accessibility_service_description">Muestra el orbe flotante de DTouch y permite ejecutar gestos como Atrás, Inicio, Aplicaciones recientes, Notificaciones y apagar la pantalla. DTouch no lee el contenido de la pantalla ni recopila datos.</string>
+    <string name="accessibility_disclosure_title">Aviso de accesibilidad</string>
+    <string name="accessibility_short_note">DTouch no lee el contenido de la pantalla, no recopila datos y no usa Internet.</string>
+    <string name="continue_label">Continuar</string>
+
+    <string name="status_title">Estado</string>
+    <string name="status_accessibility_on">El servicio de accesibilidad está activo</string>
+    <string name="status_accessibility_off">El servicio de accesibilidad está desactivado</string>
+    <string name="enable_accessibility">Activar accesibilidad</string>
+    <string name="open_accessibility_settings">Abrir ajustes de accesibilidad</string>
+    <string name="accessibility_settings_hint">Activa DTouch en Ajustes &gt; Accesibilidad &gt; Aplicaciones descargadas. Android no permite que las apps activen este servicio automáticamente.</string>
+
+    <string name="gestures_title">Gestos</string>
+    <string name="gesture_single_tap">Toque simple</string>
+    <string name="gesture_double_tap">Doble toque</string>
+    <string name="gesture_swipe_up">Deslizar hacia arriba</string>
+    <string name="gesture_swipe_down">Deslizar hacia abajo</string>
+    <string name="gesture_swipe_left">Deslizar a la izquierda</string>
+    <string name="gesture_swipe_right">Deslizar a la derecha</string>
+    <string name="gesture_note">Mantén presionado el orbe para moverlo. Arrástralo a cualquier posición y suéltalo para guardarla.</string>
+    <string name="gesture_sensitivity_label">Sensibilidad de gestos</string>
+    <string name="gesture_sensitivity_hint">A menor distancia, se detectan deslizamientos más cortos. El long press y el doble toque no cambian.</string>
+    <string name="gesture_sensitivity_value">%1$d%%</string>
+
+    <string name="appearance_title">Apariencia</string>
+    <string name="appearance_hint">Los cambios se aplican al instante en el orbe flotante.</string>
+    <string name="orb_size_label">Tamaño del orbe</string>
+    <string name="orb_alpha_label">Opacidad del orbe</string>
+    <string name="orb_size_value">%1$d dp</string>
+    <string name="orb_alpha_value">%1$d%%</string>
+    <string name="orb_image_label">Imagen personalizada</string>
+    <string name="orb_image_custom_active">Usando una imagen personalizada</string>
+    <string name="orb_image_default_active">Usando el orbe predeterminado de DTouch</string>
+    <string name="orb_image_hint">Se recomienda PNG con transparencia. La imagen se guarda solo en este dispositivo.</string>
+    <string name="choose_orb_image">Elegir imagen</string>
+    <string name="use_default_orb">Quitar imagen</string>
+    <string name="orb_image_saved">Imagen del orbe guardada</string>
+    <string name="orb_image_error">No se pudo leer esa imagen. Prueba con PNG o JPG.</string>
+    <string name="orb_image_reset">Orbe predeterminado restaurado</string>
+
+    <string name="orb_style_label">Estilo del orbe</string>
+    <string name="orb_style_hint">Elige un estilo. La animación se ve en el orbe flotante.</string>
+    <string name="orb_style_active">Estilo: %1$s</string>
+    <string name="orb_style_classic">Clásico</string>
+    <string name="orb_style_solid">Sólido</string>
+    <string name="orb_style_ring">Anillo</string>
+    <string name="orb_style_dot">Punto</string>
+    <string name="orb_style_duo">Dúo</string>
+    <string name="orb_style_midnight">Medianoche</string>
+    <string name="orb_style_frost">Escarcha</string>
+    <string name="orb_style_aqua">Aqua</string>
+    <string name="orb_style_rainbow">Arcoíris</string>
+    <string name="orb_style_aurora">Aurora</string>
+    <string name="orb_style_pulse">Púlsar</string>
+    <string name="orb_style_comet">Cometa</string>
+
+    <string name="action_none">Ninguna</string>
+    <string name="action_lock_screen">Apagar pantalla</string>
+    <string name="action_back">Atrás</string>
+    <string name="action_home">Inicio</string>
+    <string name="action_recents">Aplicaciones recientes</string>
+    <string name="action_notifications">Panel de notificaciones</string>
+    <string name="action_unavailable">Esta acción no está disponible en este dispositivo.</string>
+
+    <string name="lock_title">Bloqueo de pantalla</string>
+    <string name="lock_admin_active">Permiso activo</string>
+    <string name="lock_admin_inactive">Permiso no concedido</string>
+    <string name="lock_admin_explanation">DTouch necesita permiso de administrador del dispositivo para apagar la pantalla en Android 8 o anterior.</string>
+    <string name="lock_admin_required">Activa el permiso para bloquear pantalla en DTouch para usar esta acción.</string>
+    <string name="enable_lock_admin">Activar permiso</string>
+    <string name="disable_lock_admin">Desactivar permiso</string>
+
+    <string name="reset_position">Restablecer posición del orbe</string>
+    <string name="position_reset">Posición del orbe restablecida</string>
+
+    <string name="about">Acerca de</string>
+    <string name="about_title">Acerca de</string>
+    <string name="about_message">DTouch %1$s\n\nUn orbe flotante con gestos personalizables.\n\nInspirado en el comportamiento de J Touch 1.7.0-GP.</string>
+    <string name="app_subtitle">Orbe flotante con gestos personalizables</string>
+    <string name="accessibility_disclosure">DTouch usa la API de accesibilidad para mostrar el orbe flotante y ejecutar acciones como Atrás, Inicio, Aplicaciones recientes, Notificaciones y apagar la pantalla. DTouch no lee el contenido de la pantalla, no recopila datos y no usa Internet.</string>
+
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="error_overlay">No se pudo mostrar el orbe flotante. Comprueba que el servicio de accesibilidad esté activado.</string>
+    <string name="orb_content_description">Orbe flotante de DTouch</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DTouch" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/dt_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/dt_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/dt_on_primary_container</item>
+        <item name="colorSurface">@color/dt_surface</item>
+        <item name="colorOnSurface">@color/dt_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/dt_on_surface_variant</item>
+        <item name="colorOutlineVariant">@color/dt_divider</item>
+        <item name="android:statusBarColor">@color/dt_primary_dark</item>
+        <item name="android:navigationBarColor">@color/dt_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">@color/dt_background</item>
+    </style>
+
+    <style name="TextAppearance.DTouch.Section" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.DTouch.SectionHeader" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/section_spacing</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.DTouch.Section</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+</resources>

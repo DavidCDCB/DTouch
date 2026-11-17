@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DTouch</string>
+    <string name="service_label">DTouch</string>
+    <string name="device_admin_label">DTouch screen lock</string>
+    <string name="device_admin_description">Allows DTouch to turn off the screen on Android 8 and older.</string>
+
+    <string name="accessibility_service_description">Shows the DTouch floating orb and lets it perform gestures such as Back, Home, Recent apps, Notifications, and turning off the screen. DTouch does not read screen content or collect data.</string>
+    <string name="accessibility_disclosure_title">Accessibility disclosure</string>
+    <string name="accessibility_short_note">DTouch does not read screen content, does not collect data, and does not use the internet.</string>
+    <string name="continue_label">Continue</string>
+
+    <string name="status_title">Status</string>
+    <string name="status_accessibility_on">Accessibility service is active</string>
+    <string name="status_accessibility_off">Accessibility service is off</string>
+    <string name="enable_accessibility">Enable accessibility</string>
+    <string name="open_accessibility_settings">Open accessibility settings</string>
+    <string name="accessibility_settings_hint">Enable DTouch in Settings &gt; Accessibility &gt; Downloaded apps. Android does not allow apps to enable this service automatically.</string>
+
+    <string name="gestures_title">Gestures</string>
+    <string name="gesture_single_tap">Single tap</string>
+    <string name="gesture_double_tap">Double tap</string>
+    <string name="gesture_swipe_up">Swipe up</string>
+    <string name="gesture_swipe_down">Swipe down</string>
+    <string name="gesture_swipe_left">Swipe left</string>
+    <string name="gesture_swipe_right">Swipe right</string>
+    <string name="gesture_note">Long-press the orb to move it. Drag it anywhere and release to save the position.</string>
+    <string name="gesture_sensitivity_label">Gesture sensitivity</string>
+    <string name="gesture_sensitivity_hint">A shorter distance recognizes swipes sooner. Long press and double tap are unchanged.</string>
+    <string name="gesture_sensitivity_value">%1$d%%</string>
+
+    <string name="appearance_title">Appearance</string>
+    <string name="appearance_hint">Changes apply immediately to the floating orb.</string>
+    <string name="orb_size_label">Orb size</string>
+    <string name="orb_alpha_label">Orb opacity</string>
+    <string name="orb_size_value">%1$d dp</string>
+    <string name="orb_alpha_value">%1$d%%</string>
+    <string name="orb_image_label">Custom image</string>
+    <string name="orb_image_custom_active">Using a custom image</string>
+    <string name="orb_image_default_active">Using the default DTouch orb</string>
+    <string name="orb_image_hint">PNG with transparency recommended. The image is stored only on this device.</string>
+    <string name="choose_orb_image">Choose image</string>
+    <string name="use_default_orb">Remove image</string>
+    <string name="orb_image_saved">Custom orb image saved</string>
+    <string name="orb_image_error">Could not read that image. Try a PNG or JPG.</string>
+    <string name="orb_image_reset">Default orb restored</string>
+
+    <string name="orb_style_label">Orb style</string>
+    <string name="orb_style_hint">Choose a preset. The animation is shown on the floating orb.</string>
+    <string name="orb_style_active">Style: %1$s</string>
+    <string name="orb_style_classic">Classic</string>
+    <string name="orb_style_solid">Solid</string>
+    <string name="orb_style_ring">Ring</string>
+    <string name="orb_style_dot">Dot</string>
+    <string name="orb_style_duo">Duo</string>
+    <string name="orb_style_midnight">Midnight</string>
+    <string name="orb_style_frost">Frost</string>
+    <string name="orb_style_aqua">Aqua</string>
+    <string name="orb_style_rainbow">Rainbow</string>
+    <string name="orb_style_aurora">Aurora</string>
+    <string name="orb_style_pulse">Pulse</string>
+    <string name="orb_style_comet">Comet</string>
+
+    <string name="action_none">None</string>
+    <string name="action_lock_screen">Turn off screen</string>
+    <string name="action_back">Back</string>
+    <string name="action_home">Home</string>
+    <string name="action_recents">Recent apps</string>
+    <string name="action_notifications">Notification panel</string>
+    <string name="action_unavailable">This action is not available on this device.</string>
+
+    <string name="lock_title">Screen lock</string>
+    <string name="lock_admin_active">Permission active</string>
+    <string name="lock_admin_inactive">Permission not granted</string>
+    <string name="lock_admin_explanation">DTouch needs device administrator permission to turn off the screen on Android 8 or older.</string>
+    <string name="lock_admin_required">Enable the screen lock permission in DTouch to use this action.</string>
+    <string name="enable_lock_admin">Enable permission</string>
+    <string name="disable_lock_admin">Disable permission</string>
+
+    <string name="reset_position">Reset orb position</string>
+    <string name="position_reset">Orb position reset</string>
+
+    <string name="about">About</string>
+    <string name="about_title">About</string>
+    <string name="about_message">DTouch %1$s\n\nA floating orb with customizable gestures.\n\nInspired by the behavior of J Touch 1.7.0-GP.</string>
+    <string name="app_subtitle">Floating orb with customizable gestures</string>
+    <string name="accessibility_disclosure">DTouch uses the AccessibilityService API to show the floating orb and perform actions such as Back, Home, Recent apps, Notifications, and turning off the screen. DTouch does not read screen content, does not collect data, and does not use the internet.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_overlay">Could not show the floating orb. Check that the accessibility service is enabled.</string>
+    <string name="orb_content_description">DTouch floating orb</string>
+</resources>
